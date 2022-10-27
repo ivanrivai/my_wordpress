@@ -10,6 +10,6 @@
 - For scaling purposes, we can use built in function in docker-compose, `docker-compose up --scale wordpress=2 -d`
 - Notice that in `docker-compose.yml`, in wordpress services, it is defined a ranged ports so that when we want to scale, docker can allocate to the defined ports
 ## Stack Version
-To test new stack version (php, wordpress), open `docker-compose.yml` and adjust it accordingly. 
+To test new stack version (db, wordpress), open `docker-compose.yml` and adjust it accordingly. 
 <br></br>
 To destroy all containers, run `docker-compose down`
